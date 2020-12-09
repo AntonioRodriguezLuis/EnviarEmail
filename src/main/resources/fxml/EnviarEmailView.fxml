@@ -38,7 +38,7 @@
       <TextField fx:id="puertoText" promptText="Puerto" GridPane.columnIndex="3" />
       <CheckBox fx:id="conexionSSLCheck" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <TextField fx:id="emailRemitenteText" promptText="Email del remitente" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />
-      <PasswordField fx:id="passwordText" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <PasswordField fx:id="passwordText" promptText="Contraseña" GridPane.columnIndex="3" GridPane.rowIndex="2" />
       <TextField fx:id="emailDestinatarioText" promptText="Email del destinatario" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="3" />
       <TextField fx:id="asuntoText" promptText="Asunto del mensaje" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="4" />
       <TextArea fx:id="mensajeTextArea" minHeight="-Infinity" minWidth="-Infinity" promptText="Mensaje" wrapText="true" GridPane.columnSpan="4" GridPane.rowIndex="5" />
